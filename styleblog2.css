@@ -1,0 +1,247 @@
+* {
+    box-sizing: border-box;
+}
+  
+body {
+    margin: 0;
+    font-family: 'Poppins';
+}
+  
+a {
+    text-decoration: none;
+}
+  
+.clear {
+    clear: left;
+}
+  
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    position :fixed;
+    z-index: 10;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(180deg, rgba(187, 173, 255, 1) 64.71%, rgba(255, 255, 255, 1) 100%);
+    border: 4px solid #E5CCFD;
+    box-sizing: border-box;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 15px 15px;
+}
+  
+.header-left img {
+    width: 130px;
+    height: 50px;
+    margin-top: 15px;
+}
+  
+.header-left {
+    float: left;
+}
+
+.header-center {
+    float: left;
+    margin: 0 50px;
+}
+
+.header-center a {
+    width: 110px;
+    height: 30px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 10px;
+    color: #FFFFFF;
+    line-height: 80px;
+    display: block;
+    float: left;
+    opacity: 0.8;
+}
+
+.header-center a:hover {
+    opacity: 1;
+}
+  
+.header-right {
+    float: right;
+}
+  
+.header-right a {
+    line-height: 65px;
+    padding: 0 10px;
+    color: white;
+    display: block;
+    transition: all 0.5s;
+}
+
+.profile {
+    width: 180px;
+    height: 70px;
+    background: #BFB7FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    display: inline-block;
+    margin: 5px 7px 0 0;
+    border: 2px solid #E5CCFD;
+    box-sizing: border-box;
+}
+
+.profile-left {
+    float: left;
+}
+
+.profile-left img {
+    width: 50px;
+    height: 50px;
+    margin: 8px 0 0 10px;
+}
+
+.profile-right img {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-left: 10px;
+}
+
+.profile-right p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 10px;
+    text-align: center;
+    color: #E5CCFD;
+}
+
+.logout-btn p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 22px;
+    text-align: center;
+    color: #F76969;
+    opacity: 0.8;
+}
+
+.logout-btn p:hover {
+    opacity: 1;
+}
+
+.main {
+    width: 100%;
+    background: #8187DC;
+    mix-blend-mode: normal; 
+    position: relative;
+}
+
+.empty {
+    width: 100%;
+    background: #8187DC;
+    mix-blend-mode: normal; 
+    position: relative;
+    height: 75px;
+}
+
+.blog-main {
+    background: #8187DC;
+    height: 2000px;
+    width: 100%;
+    position: relative;
+}
+
+.blog-header {
+    float: left;
+    width: 100%;
+}
+
+.blog-border {
+    background: linear-gradient(180deg, #8D85FF 0%, #BB99FF 100%);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    width: 95px;
+    height: 15px;
+    margin-bottom: 50px;
+}
+
+.blog-heading h2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 10px;
+    color: #B28FF9;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.blog-heading p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    color: #894FFF;
+    margin-left: 70px;
+    margin-bottom: 30px;
+}
+
+.blog-img img {
+    margin-left: 330px;
+    width: 500px;
+    height: 300px;
+}
+
+.blog-img h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 60px;
+    text-align: center;
+    color: #DCCBFF;
+}
+
+.blog-source {
+    text-align: center;
+}
+
+.blog-source span{
+    color: #DCCBFF;
+}
+
+.blog-source p {
+    color: #793df0;
+    font-weight: bold;
+}
+
+.blog-text p {
+    color: #DCCBFF;
+    font-weight: bold;
+}
+
+.blog-text span {
+    color: #5603fa;
+}
+
+footer {
+    background: #757BC8;
+    height: 120px;
+    width: 100%;
+    position: absolute;
+}
+
+.footer-logo img {
+    margin-left: 470px;
+    margin-top: 25px;
+    width: 200px;
+    height: 80px;
+}
