@@ -1,5 +1,5 @@
 # n-Lone
-n-Lone provide a variety of services for people who think they have mental health problems. We try to provide a website that can help them maximally in overcoming their mental health problems and also solve
+n-Lone provide a variety of services for people who think they have mental health problems. We try to solve the SDG Goal 3 (Good Health & Wellbeing) by providing a website that can help them maximally in overcoming their mental health problems.
 
 ### Features
 * How Was Your Day (Motivational words)
