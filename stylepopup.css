@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+    margin: 0;
+    font-family: 'Poppins', 'Open sans';
+}
+  
+a {
+    text-decoration: none;
+}
+  
+.clear {
+    clear: left;
+}
+  
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.sign {
+    width: 100%;
+    background: #877B9A;
+    height: 720px;
+}
+
+.panel {
+    text-align: center;
+    display: inline-block;
+    width: 400px;
+    height: 500px;
+    background: linear-gradient(180deg, #BBADFF 20.83%, #CBB2FE 53.65%);
+    border-radius: 20px;
+    margin: 90px 35%;
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+}
+
+.heading h2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 20px;
+    color: rgba(129, 67, 148, 0.75);
+}
+
+.heading p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    color: rgba(129, 67, 148, 0.75);
+    width: 350px;
+    margin-left: 25px;
+}
+
+.ok-btn {
+    background: linear-gradient(180deg, rgba(149, 95, 174, 0.55) 22.92%, #CBB2FE 78.12%);
+    box-shadow: 7px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    width: 140px;
+    height: 40px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -75px;
+}
+
+.ok-btn p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.ok-btn:hover {
+    background: linear-gradient(180deg, rgba(171, 100, 204, 0.55) 22.92%, #CBB2FE 78.12%);
+}
+
+
