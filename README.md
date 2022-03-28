@@ -11,8 +11,7 @@ n-Lone provide a variety of services for people who think they have mental healt
 * Suicide Hotline
 
 ### Guidance
-You can access the website by clicking
-[this](https://amiragn.github.io/n-Lone/).
+Click [here](https://amiragn.github.io/n-Lone/) to access the website.
 
 ### TBL Team
 * Amira Ghina Nurfansepta (Hacker)
